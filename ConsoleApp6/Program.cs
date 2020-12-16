@@ -18,18 +18,25 @@ namespace ConsoleApp6
 
             //Console.WriteLine(ans);
 
+
+
+          
+
             myCar.mPH = 0;
 
             myCar.mPHChange = 20;
 
-            
-            myCar.mPH = myCar.GetSpeed(myCar.mPH, myCar.mPHChange);
 
             myCar.mPH = myCar.GetSpeed(myCar.mPH, myCar.mPHChange);
 
-            Console.WriteLine(myCar.mPH);
 
 
+            Console.WriteLine("My car is traviling at :" + myCar.mPH);
+
+            myCar.mPH = myCar.GetSpeed(myCar.mPH, myCar.mPHChange);
+
+
+            Console.WriteLine("My car is traviling at :" + myCar.mPH);
         }
     }
 }
