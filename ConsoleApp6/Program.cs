@@ -14,13 +14,13 @@ namespace ConsoleApp6
 
             myCar.model = " Fiesta ";
 
-            //string ans = ("My Car is a" + myCar.make + " " + myCar.model);
+            //string ans = string.Format("My Car is a {0} {1}.",myCar.make,myCar.model);
 
             //Console.WriteLine(ans);
 
 
 
-          
+
 
             myCar.mPH = 0;
 
