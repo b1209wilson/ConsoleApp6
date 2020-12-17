@@ -16,15 +16,16 @@ namespace ConsoleApp6
 
         public int GetSpeed(int mPH, int mPHChange)
         {
-
             mPH = mPH + mPHChange;
 
             return mPH;
-
-
-
         }
 
-       
+        internal int GetNumber(string ans)
+        {
+            int num = int.Parse(ans);
+
+            return num;
+        }
     }
 }
